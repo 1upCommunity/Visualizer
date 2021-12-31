@@ -83,7 +83,7 @@ function draw() {
     ellipse(windowWidth / 2, windowHeight / 2, loudness * value, loudness * value);
 
     textSize(windowWidth / 100);
-    text("Now playing: Punch Deck: Neon Underworld", windowWidth / 2 - textWidth("Now playing: Punch Deck: Neon Underworld") / 2, windowHeight / 10 * 9);
+    text("Now playing: Punch Deck - Neon Underworld", windowWidth / 2 - textWidth("Now playing: Punch Deck - Neon Underworld") / 2, windowHeight / 10 * 9);
 }
 
 function windowResized() {
